@@ -5,12 +5,12 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 //        tags = "@SmokeTest",
-        features = {"src/test/java/FeatureFiles/addtocarditem.feature"},
+        features = {"src/test/java/FeatureFiles/_01_Getir.feature"},
         glue = {"StepDefinitions"},
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
 
-public class _01_addtoItemExtendReport extends AbstractTestNGCucumberTests {
+public class _01_GetirExtendReport extends AbstractTestNGCucumberTests {
 }
 
 

@@ -1,4 +1,4 @@
-package StepDefinations;
+package StepDefinitions;
 
 import Pages.DialogContent;
 import Utilities.GWD;
@@ -24,6 +24,11 @@ public class _01_HomePageSteps {
     @Then("Navigate to GetirFoodPromo")
     public void navigateToGetirFoodPromo() {
         GWD.getDriver().get("https://getir.com/yemek/kampanyalar/");
+    }
+
+    @Then("Click User Information Button")
+    public void clickUserinformationButton() {
+        dc.clickFunction(dc.myprofile);
     }
 }
 
